@@ -50,6 +50,13 @@ void eliminarValor() {
 void calcularPromedio() {
 	cout << "Logica para calcular el promedio";
 }
+
+void generarValoresAleatorios(int* arr, int size) {
+	for (int i = 0; i < size; i++)
+	{
+		arr[i] = rand() % 10;
+	}
+}
 void menu() {
 	int opc;
 	do

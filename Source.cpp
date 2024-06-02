@@ -1,4 +1,7 @@
 #include <iostream>
+#define WIDTH 80
+#define HEIGHT 40
+using namespace System;
 using namespace std;
 
 void ejercicio() {
@@ -32,9 +35,6 @@ void ejercicio() {
 	cout << sumatoria * 1.0 / (n - 1);
 }
 
-void generarValores() {
-	cout << "YO genero valores";
-}
 void eliminarValor() {
 	cout << "Logica para eliminar el menor";
 }
@@ -53,12 +53,12 @@ void menu() {
 	} while (opc < 1 || opc > 3);
 	switch (opc)
 	{
-	case 1: generarValores(); break;
 	case 2: eliminarValor(); break;
 	case 3: calcularPromedio(); break;
 	}
 }
 int main() {
+	Console::SetWindowSize(WIDTH, HEIGHT);
 	menu();
 	system("pause>0");
 	return 0;

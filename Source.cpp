@@ -36,7 +36,14 @@ void ejercicio() {
 }
 
 void eliminarValor() {
-	cout << "Logica para eliminar el menor";
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			cout << "* ";
+		}
+		cout << endl;
+	}
 }
 void calcularPromedio() {
 	cout << "Logica para calcular el promedio";

@@ -44,6 +44,8 @@ void calcularPromedio(int* arr, int size) {
 	cout << suma / size << endl;
 }
 void eliminarValor() {
+	cout << "--88--" << endl;
+	cout << "**oo**" << endl;
 	for (int i = 0; i < 4; i++)
 	{
 		for (int j = 0; j < 4; j++)

@@ -37,8 +37,15 @@ void ejercicio() {
 
 void eliminarValor() {
 	cout << "--88--" << endl;
-	cout << "oo--oo" << endl;
 	cout << "**oo**" << endl;
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			cout << "* ";
+		}
+		cout << endl;
+	}
 }
 void calcularPromedio() {
 	cout << "Logica para calcular el promedio";

@@ -35,6 +35,14 @@ void ejercicio() {
 	cout << sumatoria * 1.0 / (n - 1);
 }
 
+void calcularPromedio(int* arr, int size) {
+	float suma = 0.0;
+	for (int i = 0; i < size; i++)
+	{
+		suma += arr[i];
+	}
+	cout << suma / size << endl;
+}
 void eliminarValor() {
 	for (int i = 0; i < 4; i++)
 	{
